@@ -49,4 +49,4 @@ df = pd.DataFrame({
     "TTL": ttl_result
 })
 
-df.to_csv("output.csv", index=False, sep=';')
+df.to_csv("output.csv", index=False)
