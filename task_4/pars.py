@@ -87,11 +87,9 @@ def my_parser(search_query):
 
     driver.quit()
 
-    # Сохранение в JSON
     with open('result.json', 'w', encoding='utf-8') as json_file:
         json.dump(TABLE, json_file, ensure_ascii=False, indent=4)
 
-    # Сохранение в CSV
     df = pd.DataFrame(TABLE)
     df.to_csv("result.csv", index=False, encoding='utf-8-sig')
 
