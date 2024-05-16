@@ -1,0 +1,9 @@
+Task_5
+Wordpress
+https://youtu.be/eTXvRP0k3ww?si=3DLRRPlVTgFFpWcd
+
+xampp
+https://www.apachefriends.org/ru/index.html
+
+Task_7
+чтобы просто сделать затычку для российского региона, проще всего, поставить плагин IP2Location
