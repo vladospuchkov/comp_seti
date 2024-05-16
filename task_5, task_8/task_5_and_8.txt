@@ -6,4 +6,7 @@ xampp
 https://www.apachefriends.org/ru/index.html
 
 Task_7
-чтобы просто сделать затычку для российского региона, проще всего, поставить плагин IP2Location
+в директории вашего Wordpress, есть файл .htaccess, в него надо вставит строчки 
+
+php_value upload_max_filesize 90M
+php_value post_max_size 90M
